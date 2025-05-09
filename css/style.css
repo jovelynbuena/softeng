@@ -1,0 +1,106 @@
+
+
+
+/* General Page Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../index/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Login Box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: rgba(229, 212, 184, 0.9); /* Adjust the last value for transparency */
+    padding: 80px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 380px;
+}
+
+.header h2 {
+    color: #2c1b07;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.header p {
+    color: #4e3c20;
+    font-size: 14px;
+}
+
+/* Sub Text */
+.sub-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Error Message */
+.error-msg {
+    color: white;
+    background-color: #d9534f;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #a89579;
+    border-radius: 8px;
+    background: #fdfcf7;
+}
+
+/* Forgot Password */
+.forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    color: #6e5635;
+    margin-bottom: 10px;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #6e5635;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #4e3c20;
+}
